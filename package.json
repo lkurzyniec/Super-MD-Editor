@@ -1,0 +1,27 @@
+{
+  "name": "Super-MD-editor",
+  "version": "1.0.0",
+  "description": "MD editor made on devWarsztaty",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "package": "electron-packager . Super-MD-Editor --asar --overwrite --platform=win32 --arch=all --icon=assets/icon.ico --out=dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Łukasz Kurzyniec (http://kurzyniec.pl)",
+  "license": "ISC",
+  "dependencies": {
+    "copy-paste": "^1.3.0",
+    "devtron": "^1.4.0",
+    "drag-drop": "^2.13.2",
+    "electron": "^1.7.9",
+    "electron-is-dev": "^0.3.0",
+    "electron-packager": "^9.1.0",
+    "electron-reload": "^1.2.2",
+    "electron-settings": "^3.1.3",
+    "markdown-it": "^8.4.0",
+    "marked": "^0.3.6",
+    "node-notifier": "^5.1.2"
+  }
+}
