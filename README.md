@@ -37,10 +37,13 @@ Sample Markdown editor based on [Electron][electron] made during [devWarsztaty](
 - cross-platform framework [Electron][electron]
 - cross-platform JavaScript run-time environment [Node.js](https://nodejs.org/)
 - npm packages are very powerful
+    * 5 min for [markdown-it](https://www.npmjs.com/package/markdown-it)
     * 3 min for [drag-drop](https://www.npmjs.com/package/drag-drop)
     * 5 min for [node-notifier](https://www.npmjs.com/package/node-notifier)
     * 5 min for [copy-paste](https://www.npmjs.com/package/copy-paste)
+    * 3 min for [electron-settings](https://www.npmjs.com/package/electron-settings)
 
 ##### made with ♥ to JavaScript
+
 <!-- links -->
 [electron]: https://electron.atom.io/
